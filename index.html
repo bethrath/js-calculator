@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Calculator</title>
+	<link type="text/css" rel="stylesheet" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/calculator.js"></script>
+</head>
+<body>
+
+<FORM name= "calculator">
+	<table>
+		<tr>
+			<td colspan= "4">
+			<input type="text" readonly maxlength="40" size="20" id ="screen"></td>
+		</tr>
+       <tr>
+         <td><input type="button" value="1" onclick="calc('1')"></td>
+         <td><input type="button" value="2" onclick="calc('2')"></td>
+         <td><input type="button" value="3" onclick="calc('3')"></td>
+         <td><input type="button" value="+" onclick="calc('+')"></td>
+       </tr>
+       <tr>
+         <td><input type="button" value="4" onclick="calc('4')"></td>
+         <td><input type="button" value="5" onclick="calc('5')"></td>
+         <td><input type="button" value="6" onclick="calc('6')"></td>
+         <td><input type="button" value="-" onclick="calc('-')"></td>
+       </tr><tr>
+         <td><input type="button" value="7" onclick="calc('7')"></td>
+         <td><input type="button" value="8" onclick="calc('8')"></td>
+         <td><input type="button" value="9" onclick="calc('9')"></td>
+         <td><input type="button" value="*" onclick="calc('*')"></td>
+       </tr>
+       <tr>
+         <td><input type="button" value="C" onclick="c()"></td>
+         <td><input type="button" value="0" onclick="calc('0')"></td>
+         <td><input type="button" value="=" onclick="equal()"></td>
+         <td><input type="button" value="/" onclick="calc('/')"></td>
+       </tr>
+
+     </table>
+ </FORM>
+
+</body>
+</html>
